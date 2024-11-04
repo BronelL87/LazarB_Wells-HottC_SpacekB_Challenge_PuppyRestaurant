@@ -1,0 +1,28 @@
+*{
+    background-image: url('../assets/bgtexture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@font-face {
+    font-family: 'Fugaz One';
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Montauk Regular';
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
+/* Navbar Styles - Start */
+.nav-padding{
+    padding: 0 6rem 0;
+    height: 5.75rem;
+}
+.nav-txt{
+    color: #5f002b;
+    font-size: 20px;
+    font-family: 'Fugaz One';
+
+}
+
+/* Navbar Styles - End */
