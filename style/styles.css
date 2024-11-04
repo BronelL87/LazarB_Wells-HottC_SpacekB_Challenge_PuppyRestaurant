@@ -27,8 +27,15 @@ body{
 
 /* Navbar Styles - End */
 
+
+.title-style{
+    font-size: 3.125rem;
+    color: #5F002B;
+    font-family: 'Fugaz One';
+}
+
 /* Menu Styles - Start */
-menu-Container{
+.menu-Container{
     width: 1640px;
     height: 80px;
     background-color: white;
