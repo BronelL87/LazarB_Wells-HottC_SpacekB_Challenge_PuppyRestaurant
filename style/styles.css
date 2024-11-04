@@ -27,6 +27,13 @@ body{
 
 /* Navbar Styles - End */
 
+
+.title-style{
+    font-size: 3.125rem;
+    color: #5F002B;
+    font-family: 'Fugaz One';
+}
+
 /* Menu Styles - Start */
 .menu-Container{
     
