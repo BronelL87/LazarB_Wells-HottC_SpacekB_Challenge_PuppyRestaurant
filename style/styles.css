@@ -92,7 +92,7 @@ body{
 /* Menu Styles - Start */
 .menu-Container{
     height: 5rem;
-    width: 90%;
+    width: 88%;
     margin: auto;
 }
 .menu-Title-txt{
@@ -118,14 +118,19 @@ body{
 }
 hr{
     background-color: #980051;
+    width: 100%;
+    height: 1px;
+}
+.row{
     width: 90%;
-    height: 10px;
     margin: auto;
 }
 .first-row{
     grid-row: 1;
     grid-column: 1/3;
+    width: 100%;
 }
+
 .Sandwiches-container{
     background-color: white;
     width: 100%;
@@ -146,11 +151,13 @@ hr{
 .grill-row{
     grid-row: 2;
     grid-column: 1/3;
+    width: 100%;
 }
 .desserts-container{
     background-color: white;
     overflow: hidden;
     width: 100%;
+    height: 100%;
 }
 .dessert-row{
     width: 50.75rem;
