@@ -34,6 +34,11 @@ body{
     font-family: 'Fugaz One';
 }
 
+.hero-style{
+    margin-top: 80px;
+    height: 31.25rem;
+}
+
 /* Menu Styles - Start */
 .menu-Container{
     height: 5rem;
