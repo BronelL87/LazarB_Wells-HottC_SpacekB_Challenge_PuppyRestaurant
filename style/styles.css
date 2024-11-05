@@ -27,13 +27,29 @@ body{
 
 /* Navbar Styles - End */
 
+/* Home Page -Start */
 .home-image{
     width: 100%;
     height: 37.5rem;
     margin-top: 44px;
 }
 
+.home-margin{
+    margin-top: 100px;
+}
 
+
+.card-height{
+    height: 28.125rem;
+
+}
+
+.text-dimensions{
+    height: 28.125rem;
+    width: 59.375rem;
+}
+
+/* Home Page - End */
 
 
 .title-style{
