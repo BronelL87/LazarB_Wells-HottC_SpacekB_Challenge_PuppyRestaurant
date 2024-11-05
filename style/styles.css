@@ -68,10 +68,15 @@ body{
     font-family: 'Fugaz One';
     font-size: 30px;
 }
-.card-text-style{
+.footer-text-style{
     color: #5F002B;
     font-family: 'Montauk Regular';
-    font-size: 17px;
+    font-size: 20px;
+}
+
+.company-logo-style{
+    width: 6.25rem;
+    height: 1.975rem;
 }
 
 
