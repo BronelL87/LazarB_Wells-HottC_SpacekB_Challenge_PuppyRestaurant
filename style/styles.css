@@ -34,8 +34,25 @@ body{
     margin-top: 44px;
 }
 
+.img-size{
+    width: 42.125rem;
+    height: 22.844rem;
+}
 
-/* Home Page - End */
+.card-style{
+    width: 47.1rem;
+    height: 22.844rem;
+}
+.card-title-style{
+    color: #5F002B;
+    font-family: 'Fugaz One';
+    font-size: 30px;
+}
+.card-text-style{
+    color: #5F002B;
+    font-family: 'Montauk Regular';
+    font-size: 15px;
+}
 
 
 .title-style{
