@@ -64,7 +64,10 @@ body{
 }
 /* Home Page - End */
 
-
+.triple-img{
+    width: 33.5rem;
+    height: 22.344rem;
+}
 
 .img-size{
     width: 42.125rem;
@@ -86,7 +89,6 @@ body{
     font-size: 17px;
 }
 
-
 .title-style{
     font-size: 3.125rem;
     color: #5F002B;
@@ -99,10 +101,26 @@ body{
     height: 31.25rem;
 }
 
+/* Footer - Start */
+.footer-text-style{
+    color: #5F002B;
+    font-family: 'Montauk Regular';
+    font-size: 20px;
+}
+
+.company-logo-style{
+    width: 6.25rem;
+    height: 1.975rem;
+}
+
+/* Footer - End */
+
+
+
 /* Menu Styles - Start */
 .menu-Container{
     height: 5rem;
-    width: 90%;
+    width: 88%;
     margin: auto;
 }
 .menu-Title-txt{
@@ -127,13 +145,20 @@ body{
 
 }
 hr{
-    color: #980051;
-    height: 70%;
+    background-color: #980051;
+    width: 100%;
+    height: 1px;
+}
+.row{
+    width: 90%;
+    margin: auto;
 }
 .first-row{
     grid-row: 1;
     grid-column: 1/3;
+    width: 100%;
 }
+
 .Sandwiches-container{
     background-color: white;
     width: 100%;
@@ -161,11 +186,13 @@ hr{
 .grill-row{
     grid-row: 2;
     grid-column: 1/3;
+    width: 100%;
 }
 .desserts-container{
     background-color: white;
     overflow: hidden;
     width: 100%;
+    height: 100%;
 }
 .dessert-row{
     width: 50.75rem;
