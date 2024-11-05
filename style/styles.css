@@ -37,6 +37,8 @@ body{
 
 .home-margin{
     margin-top: 100px;
+    height: 28.125rem;
+    width: 100%;
 }
 
 
@@ -46,7 +48,7 @@ body{
 }
 
 .text-dimensions{
-    height: 28.125rem;
+    height: 16.563rem;
     width: 59.375rem;
 }
 
