@@ -64,6 +64,19 @@ body{
 }
 /* Home Page - End */
 
+/* About Page - Start */
+
+.borderless{
+    border-radius: 0;
+    border: none;
+}
+
+.about-margin{
+    margin-top: 44px;
+}
+
+/* About Page - End */
+
 .triple-img{
     width: 33.5rem;
     height: 22.344rem;
