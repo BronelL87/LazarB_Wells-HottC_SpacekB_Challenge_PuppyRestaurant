@@ -70,6 +70,12 @@ body{
     font-family: 'Fugaz One';
     font-size: 30px;
 }
+
+.card-text-style{
+    color: #5F002B;
+    font-family: 'Montauk Regular';
+    font-size: 17px;
+}
 .footer-text-style{
     color: #5F002B;
     font-family: 'Montauk Regular';
