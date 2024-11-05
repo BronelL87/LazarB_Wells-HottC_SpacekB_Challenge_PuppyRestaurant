@@ -61,6 +61,7 @@ body{
 }
 
 .hero-style{
+    width: 102.5rem;
     margin-top: 80px;
     height: 31.25rem;
 }
