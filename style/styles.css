@@ -179,6 +179,9 @@ hr{
     height: 100%;
 }
 .dessert-row{
-    width: 50.75rem;
+    width: 100%;
+}
+.p-title{
+    color: #5F002B;
 }
 /* Menu Styles - End */
