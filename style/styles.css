@@ -36,7 +36,6 @@ body{
 
 /* Menu Styles - Start */
 .menu-Container{
-    
     height: 5rem;
 }
 .menu-Title-txt{
@@ -49,4 +48,30 @@ body{
     color: #5F002B;
     font-size: 50px;
 }
-/* Menu Styles - Start */
+hr{
+    color: #980051;
+    height: 70%;
+}
+.menu-Choice{
+    width: 102.5rem;
+    margin: auto;
+}
+.first-row{
+    width: 102.5rem;
+}
+.Sandwiches-container{
+    background-color: white;
+    width: 50.75rem;
+}
+.seafood-container{
+    width: 50.75rem;
+    height: 100%;
+    background-color: white;
+}
+.grill-container{
+    background-color: white;
+}
+.desserts-container{
+    background-color: white;
+}
+/* Menu Styles - End */
