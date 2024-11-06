@@ -122,15 +122,20 @@ body{
 
 
 /* Menu Styles - Start */
+.food-menu-parent-container{
+    margin: auto;
+    max-width: 90%;
+    
+}
 .menu-Container{
     height: 5rem;
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 .menu-Title-txt{
     background-color: white;
     height: 100%;
-    width:102.5rem;
+    width:100%;
 }
 .menu-Title-txt h1{
     font-family: 'Fugaz One';
@@ -138,14 +143,13 @@ body{
     font-size: 50px;
 }
 .menu-Choice{
-    max-width: 88%;
     height: 100%;
-    margin: auto;
+    width:100%;
     overflow: hidden;
+    margin: auto;
     display: grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:1fr 1fr;
-    gap: 20px;
+    grid-template-columns:50% 50%; 
+    gap: 15px;
 
 }
 .title-font-Menu{
@@ -160,16 +164,19 @@ body{
     font-size: 20px;
     font-family: 'Montauk Regular';
     padding-left: 5%;
+    padding-bottom: 2%;
 }
 .food-Title{
     color: #5F002B;
     font-size: 25px;
     font-family: 'Montauk Regular';
+    padding-left: 5%;
 }
 .food-Description{
     color: #5F002B;
     font-family: 'Montauk Regular';
     font-size: 15px;
+    padding-left: 5%;
 }
 .food-Price{
     font-size: 35px;
@@ -179,24 +186,18 @@ body{
 }
 hr{
     background-color: #980051;
-    width: 100%;
     height: 2px;
+    margin-left: 5%;
 }
-.all-row{
-    width: 90%;
-    margin: auto;
-}
-.first-row{
-    grid-row: 1;
-    grid-column: 1/3;
-    width: 100%;
-}
-
 .Sandwiches-container{
     background-color: white;
     width: 100%;
     height: 100%;
-   
+    grid-row: 1;
+    grid-column: 1/2;
+}
+.Sandwiches-container img{
+    width: 100%;
 }
 .seafood-container{
     width: 100%;
@@ -208,26 +209,20 @@ hr{
 .seafood-container img{
     width: 100%;
 }
-
 .grill-container{
     background-color: white;
     width: 100%;
     grid-row: 2;
-    grid-column: 1/3;
-}
-.grill-row{
-    grid-row: 2;
-    grid-column: 1/3;
-    width: 100%;
+    grid-column: 1/2;
 }
 .desserts-container{
     background-color: white;
     overflow: hidden;
     width: 100%;
     height: 100%;
-}
-.dessert-row{
-    width: 90%;
+    grid-row: 2;
+    grid-column: 2/3;
+
 }
 .p-title{
     color: #5F002B;
