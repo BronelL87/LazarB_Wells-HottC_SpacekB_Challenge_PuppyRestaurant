@@ -264,19 +264,18 @@ hr{
 
 /* Home Page */
 
+.card-height{
 
+    height: 28.125rem;
+    width: 43.75rem;
+    padding: 0;
 
+}
 
-
-
-
-
-
-
-
-
-
-
+.home-tablet-center{
+    display: flex;
+    justify-content: center;
+}
 
 
 
