@@ -41,8 +41,7 @@ body{
 
 .home-margin{
     margin-top: 100px;
-    height: 28.125rem;
-    width: 100%;
+   
 }
 
 
@@ -281,11 +280,12 @@ hr{
 .home-image{
    object-fit: contain;
    height: 27.5rem;
-
+    margin-top: 100px;
 }
 
-
-
+.home-margin{
+    margin-top: 60px;
+}
 
 
 
