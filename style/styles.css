@@ -348,6 +348,13 @@ hr{
 /* Menu */
 .menu-Choice{
     grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+}
+.menu-Container{
+    max-width: 674.4px;
+    justify-content: start;
+    margin: 0;
 }
 .Sandwiches-container{
     background-color: white;
@@ -373,7 +380,7 @@ hr{
 .desserts-container{
     background-color: white;
     overflow: hidden;
-    width: 674.4px;
+    max-width: 674.4px;
     height: 100%;
     grid-row: 5;
     grid-column: span 3;
