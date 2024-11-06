@@ -79,6 +79,16 @@ body{
     margin-top: 44px;
 }
 
+.image-about{
+    height: 42.188rem;
+    width: 42.188rem;
+}
+
+.main-text-about{
+    height: 42.188rem;
+    width: 59.375rem;
+}
+
 /* About Page - End */
 
 .triple-img{
