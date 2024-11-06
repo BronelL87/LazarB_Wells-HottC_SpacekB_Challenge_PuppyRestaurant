@@ -278,9 +278,11 @@ hr{
 }
 
 
+.home-image{
+   object-fit: contain;
+   height: 27.5rem;
 
-
-
+}
 
 
 
