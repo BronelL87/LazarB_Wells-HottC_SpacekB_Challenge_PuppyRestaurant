@@ -1,499 +1,336 @@
-body{
-    background-image: url('../assets/bgtexture.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+body {
+  background-image: url("../assets/bgtexture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 @font-face {
-    font-family: 'Fugaz One';
-    src: url(../assets/fonts/FugazOne-Regular.ttf);
+  font-family: "Fugaz One";
+  src: url(../assets/fonts/FugazOne-Regular.ttf);
 }
 @font-face {
-    font-family: 'Montauk Regular';
-    src: url(../assets/fonts/Montauk-Regular.otf);
+  font-family: "Montauk Regular";
+  src: url(../assets/fonts/Montauk-Regular.otf);
 }
 @font-face {
-    font-family: 'Montauk light';
-    src: url(../assets/fonts/Montauk-Light.otf);
+  font-family: "Montauk light";
+  src: url(../assets/fonts/Montauk-Light.otf);
 }
 
 /* Navbar Styles - Start */
-.nav-padding{
-    padding: 0 6rem 0;
-    height: 5.75rem;
+.nav-padding {
+  padding: 0 6rem 0;
+  height: 5.75rem;
 }
-.nav-txt{
-    color: #5f002b;
-    font-size: 20px;
-    font-family: 'Fugaz One';
-
+.nav-txt {
+  color: #5f002b;
+  font-size: 20px;
+  font-family: "Fugaz One";
 }
 
 /* Navbar Styles - End */
 
 /* Home Page -Start */
-.home-image{
-    width: 100%;
-    height: 37.5rem;
-    margin-top: 44px;
+.home-image {
+  width: 100%;
+  height: 37.5rem;
+  margin-top: 44px;
 }
 
-
-.home-margin{
-    margin-top: 100px;
-   
+.home-margin {
+  margin-top: 100px;
 }
 
-
-.card-height{
-    height: 28.125rem;
-
+.card-height {
+  height: 28.125rem;
 }
 
-.text-dimensions{
-    height: 16.563rem;
-    width: 59.375rem;
+.text-dimensions {
+  height: 16.563rem;
+  width: 59.375rem;
 }
 
-.home-title-style{
-    color: #5F002B;
-    font-family: 'Fugaz One';
-    font-size: 50px;
+.home-title-style {
+  color: #5f002b;
+  font-family: "Fugaz One";
+  font-size: 50px;
 }
-.home-text-style{
-    color: #5F002B;
-    font-family: 'Montauk Regular';
-    font-size: 20px;
+.home-text-style {
+  color: #5f002b;
+  font-family: "Montauk Regular";
+  font-size: 20px;
 }
 /* Home Page - End */
 
 /* About Page - Start */
 
-.borderless{
-    border-radius: 0;
-    border: none;
+.borderless {
+  border-radius: 0;
+  border: none;
 }
 
-.about-margin{
-    margin-top: 44px;
+.about-margin {
+  margin-top: 44px;
 }
 
-.image-about{
-    height: 42.188rem;
-    width: 42.188rem;
+.image-about {
+  height: 42.188rem;
+  width: 42.188rem;
 }
 
-.main-text-about{
-    height: 42.188rem;
-    width: 59.375rem;
+.main-text-about {
+  height: 42.188rem;
+  width: 59.375rem;
 }
 
 /* About Page - End */
 
-.triple-img{
-    width: 33.5rem;
-    height: 22.344rem;
+.triple-img {
+  width: 33.5rem;
+  height: 22.344rem;
 }
 
-.photo-styles{
-    width: 24.875rem;
-    height: 24.875rem;
-    border: 10px solid white;
+.photo-styles {
+  width: 24.875rem;
+  height: 24.875rem;
+  border: 10px solid white;
 }
 
-.img-size{
-    width: 42.125rem;
-    height: 22.844rem;
+.img-size {
+  width: 42.125rem;
+  height: 22.844rem;
 }
 
-.card-style{
-    width: 59.375rem;
-    height: 22.844rem;
+.card-style {
+  width: 59.375rem;
+  height: 22.844rem;
 }
-.card-title-style{
-    color: #5F002B;
-    font-family: 'Fugaz One';
-    font-size: 30px;
+.card-title-style {
+  color: #5f002b;
+  font-family: "Fugaz One";
+  font-size: 30px;
 }
-.card-text-style{
-    color: #5F002B;
-    font-family: 'Montauk Regular';
-    font-size: 17px;
-}
-
-.title-style{
-    font-size: 3.125rem;
-    color: #5F002B;
-    font-family: 'Fugaz One';
+.card-text-style {
+  color: #5f002b;
+  font-family: "Montauk Regular";
+  font-size: 17px;
 }
 
-.hero-style{
-    width: 102.5rem;
-    margin-top: 80px;
-    height: 31.25rem;
+.title-style {
+  font-size: 3.125rem;
+  color: #5f002b;
+  font-family: "Fugaz One";
+}
+
+.hero-style {
+  width: 102.5rem;
+  margin-top: 80px;
+  height: 31.25rem;
 }
 
 /* Footer - Start */
-.footer-text-style{
-    color: #5F002B;
-    font-family: 'Montauk Regular';
-    font-size: 20px;
+.footer-text-style {
+  color: #5f002b;
+  font-family: "Montauk Regular";
+  font-size: 20px;
 }
 
-.company-logo-style{
-    width: 6.25rem;
-    height: 1.975rem;
+.company-logo-style {
+  width: 6.25rem;
+  height: 1.975rem;
 }
 
 /* Footer - End */
 
-
-
 /* Menu Styles - Start */
-.food-menu-parent-container{
-    margin: auto;
-    max-width: 90%;
-    
+.food-menu-parent-container {
+  margin: auto;
+  max-width: 90%;
 }
-.menu-Container{
-    height: 5rem;
-    width: 100%;
-    margin: auto;
+.menu-Container {
+  height: 5rem;
+  width: 100%;
+  margin: auto;
 }
-.menu-Title-txt{
-    background-color: white;
-    height: 100%;
-    width:100%;
+.menu-Title-txt {
+  background-color: white;
+  height: 100%;
+  width: 100%;
 }
-.menu-Title-txt h1{
-    font-family: 'Fugaz One';
-    color: #5F002B;
-    font-size: 50px;
+.menu-Title-txt h1 {
+  font-family: "Fugaz One";
+  color: #5f002b;
+  font-size: 50px;
 }
-.menu-Choice{
-    height: 100%;
-    width:100%;
-    overflow: hidden;
-    margin: auto;
-    display: grid;
-    grid-template-columns:50% 50%; 
-    gap: 15px;
-
+.menu-Choice {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
 }
-.title-font-Menu{
-    color: #5F002B;
-    font-size: 30px;
-    font-family: 'Fugaz One';
-    padding-top: 30px;
-    padding-left: 5%;
+.title-font-Menu {
+  color: #5f002b;
+  font-size: 30px;
+  font-family: "Fugaz One";
+  padding-top: 30px;
+  padding-left: 5%;
 }
-.title-p-Font-Menu{
-    color: #5F002B;
-    font-size: 20px;
-    font-family: 'Montauk Regular';
-    padding-left: 5%;
-    padding-bottom: 2%;
+.title-p-Font-Menu {
+  color: #5f002b;
+  font-size: 20px;
+  font-family: "Montauk Regular";
+  padding-left: 5%;
+  padding-bottom: 2%;
 }
-.food-Title{
-    color: #5F002B;
-    font-size: 25px;
-    font-family: 'Montauk Regular';
-    padding-left: 5%;
+.food-Title {
+  color: #5f002b;
+  font-size: 25px;
+  font-family: "Montauk Regular";
+  padding-left: 5%;
 }
-.food-Description{
-    color: #5F002B;
-    font-family: 'Montauk Regular';
-    font-size: 15px;
-    padding-left: 5%;
+.food-Description {
+  color: #5f002b;
+  font-family: "Montauk Regular";
+  font-size: 15px;
+  padding-left: 5%;
 }
-.food-Price{
-    font-size: 35px;
-    font-family: 'Montauk light';
-    color: #5F002B;
-    
+.food-Price {
+  font-size: 35px;
+  font-family: "Montauk light";
+  color: #5f002b;
 }
-hr{
-    background-color: #980051;
-    height: 2px;
-    margin-left: 5%;
+hr {
+  background-color: #980051;
+  height: 2px;
+  margin-left: 5%;
 }
-.Sandwiches-container{
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    grid-row: 1;
-    grid-column: 1/2;
+.Sandwiches-container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  grid-row: 1;
+  grid-column: 1/2;
 }
-.Sandwiches-container img{
-    width: 100%;
+.Sandwiches-container img {
+  width: 100%;
 }
-.seafood-container{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    grid-row: 1;
-    grid-column: 2/3;
+.seafood-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  grid-row: 1;
+  grid-column: 2/3;
 }
-.seafood-container img{
-    width: 100%;
+.seafood-container img {
+  width: 100%;
 }
-.grill-container{
-    background-color: white;
-    width: 100%;
-    grid-row: 2;
-    grid-column: 1/2;
+.grill-container {
+  background-color: white;
+  width: 100%;
+  grid-row: 2;
+  grid-column: 1/2;
 }
-.desserts-container{
-    background-color: white;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    grid-row: 2;
-    grid-column: 2/3;
-
+.desserts-container {
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  grid-row: 2;
+  grid-column: 2/3;
 }
-.p-title{
-    color: #5F002B;
+.p-title {
+  color: #5f002b;
 }
 /* Menu Styles - End */
 
-@media screen and (max-width: 767px){
-    
+@media screen and (max-width: 767px) {
+  /* Home Page */
 
-
-/* Home Page */
-
-.card-height{
-
+  .card-height {
     height: 28.125rem;
     width: 43.75rem;
     padding: 0;
+  }
 
-}
-
-.home-tablet-center{
+  .home-tablet-center {
     display: flex;
     justify-content: center;
-}
+  }
 
-
-.home-image{
-   object-fit: contain;
-   height: 27.5rem;
+  .home-image {
+    object-fit: contain;
+    height: 27.5rem;
     margin-top: 100px;
-}
+  }
 
-.home-margin{
+  .home-margin {
     margin-top: 60px;
-}
+  }
 
+  /* About */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* About */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Menu */
-.menu-Choice{
+  /* Menu */
+  .menu-Choice {
     grid-template-columns: 1fr 1fr;
     width: 100%;
     justify-content: center;
-}
-.menu-Container{
+  }
+  .menu-Container {
     max-width: 674.4px;
     justify-content: start;
     margin: 0;
-}
-.Sandwiches-container{
+  }
+  .Sandwiches-container {
     background-color: white;
     width: 100%;
     height: 100%;
     grid-row: 1;
     grid-column: 1 /3;
-}
-.seafood-container{
+  }
+  .seafood-container {
     background-color: white;
     width: 100%;
     height: 100%;
     grid-row: 2;
     grid-column: 1/3;
-}
-.grill-container{
+  }
+  .grill-container {
     background-color: white;
     width: 100%;
     height: 100%;
     grid-row: 3;
     grid-column: 1 / 3;
-}
-.desserts-container{
+  }
+  .desserts-container {
     background-color: white;
     overflow: hidden;
     max-width: 674.4px;
     height: 100%;
     grid-row: 5;
     grid-column: span 3;
+  }
+
+  /* Catering */
+
+  /* Photos */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Catering */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Photos */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 575px) {
+
+
+    /*Menu mobile verson*/
+    .title-font-Menu{
+        text-align: center;
+    }
+    .title-p-Font-Menu{
+        text-align: center;
+    }
+  .custome-aligntxt{
+    text-align: center;
+  }
+  .food-Price{
+    text-align: center;
+  }
 }
