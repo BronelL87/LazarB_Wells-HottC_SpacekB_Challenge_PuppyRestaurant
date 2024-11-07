@@ -313,51 +313,111 @@ hr {
   }
 
   /* Catering */
-  #card-response{
+  #card-response {
     width: 35rem;
     height: 600px;
     margin-top: 10px;
     margin-left: 7.7rem;
-    }
-    .img-size{
+  }
+  .img-size {
     width: 35rem;
     margin-left: 7.7rem;
-    }
-  
-    .triple-img{
+  }
+
+  .triple-img {
     width: 35rem;
     height: 20rem;
     padding-top: 10px;
     margin-left: 7rem;
-    }
-    
-    .hero-style{
+  }
+
+  .hero-style {
     width: 100%;
     height: 25rem;
-    
-    }
-    #remove-pad{
+  }
+  #remove-pad {
     padding: 0;
-    }
-    
+  }
+
   /* Photos */
-  
 }
 
 @media screen and (max-width: 575px) {
-
-
-    /*Menu mobile verson*/
-    .title-font-Menu{
-        text-align: center;
-    }
-    .title-p-Font-Menu{
-        text-align: center;
-    }
-  .custome-aligntxt{
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*Menu mobile verson*/
+  .title-font-Menu {
     text-align: center;
   }
-  .food-Price{
+  .title-p-Font-Menu {
     text-align: center;
   }
+  .custome-aligntxt {
+    text-align: center;
+  }
+  .food-Price {
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
