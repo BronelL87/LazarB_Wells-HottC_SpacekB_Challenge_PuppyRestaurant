@@ -82,6 +82,16 @@ body {
   width: 59.375rem;
 }
 
+.about-main-container{
+  margin: auto;
+  max-width: 90%;
+}
+.about-Container {
+  height: 5rem;
+  width: 100%;
+  margin: auto;
+}
+
 .about-title-style {
   color: #5f002b;
   font-family: "Fugaz One";
@@ -326,11 +336,11 @@ hr {
   .home-image {
     object-fit: contain;
     height: 27.5rem;
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .home-margin {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   /* About */
@@ -340,18 +350,38 @@ hr {
     width: 40.625rem;
 
   }
-  
   .main-text-about {
     height: auto;
     width: 40.625rem;
     text-align: center;
   }
+  .menu-Title-txt{
+    width: 650px;
+  }
 
   .about-card-title-style {
     font-size: 25px;
   }
+  .card-cntent-width{
+    width: 650px;
+    margin: auto;
+  }
+  .dog-card-body h3{
+    text-align: center;
+  }
+  .dog-card-body p{
+    text-align: center;
+  }
+  .dog-row{
+    gap: 15px;
+  }
 
-  
+  .about-Container {
+    max-width: 674.4px;
+    justify-content: start;
+    margin: 0;
+  }
+
   /* Menu */
   .menu-Choice {
     grid-template-columns: 1fr 1fr;
@@ -444,7 +474,22 @@ hr {
 
 /* About Mobile */
 
+.image-about{
+  display: none;
+}
 
+.about-margin {
+  margin-top: 60px;
+}
+
+.main-text-about {
+  height: auto;
+  width: 28.125rem;
+}
+
+.about-Container{
+  width: 502.5px;
+}
   /*Menu mobile verson*/
   .title-font-Menu {
     text-align: center;
