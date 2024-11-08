@@ -82,6 +82,16 @@ body {
   width: 59.375rem;
 }
 
+.about-main-container{
+  margin: auto;
+  max-width: 90%;
+}
+.about-Container {
+  height: 5rem;
+  width: 100%;
+  margin: auto;
+}
+
 .about-title-style {
   color: #5f002b;
   font-family: "Fugaz One";
@@ -364,7 +374,12 @@ hr {
     text-align: center;
   }
 
-  
+  .about-Container {
+    max-width: 674.4px;
+    justify-content: start;
+    margin: 0;
+  }
+
   /* Menu */
   .menu-Choice {
     grid-template-columns: 1fr 1fr;
@@ -470,6 +485,9 @@ hr {
   width: 28.125rem;
 }
 
+.about-Container{
+  width: 502.5px;
+}
   /*Menu mobile verson*/
   .title-font-Menu {
     text-align: center;
