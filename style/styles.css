@@ -534,8 +534,8 @@ hr {
 /* Catering mobile */
 
 .triple-img{
-    width: 25rem;
-    margin-left: 6rem;
+    width: 30rem;
+    margin-left: 3rem;
   }
 
   .hero-style{
@@ -543,21 +543,29 @@ hr {
   }
 
   #card-response{
-    width: 25rem;
-    height: 47rem;
+    width: 30rem;
+    height: 40rem;
     text-align: center;
-    margin-left: 6.7rem
+    margin-left: 3.7rem
   }
 
   .img-size{
-    width: 25rem;
-    height: 15rem;
-    margin-left: 6.7rem;
+    width: 30rem;
+    height: 20rem;
+    margin-left: 3.7rem;
   }
 
  .mobile-row{
     max-width: 575px;
  }
+
+ .hero-style{
+    display: none;
+ }
+
+#spacing{
+    margin-top: -3rem;
+}
 
   /* Photos mobile */
 
