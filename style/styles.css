@@ -411,9 +411,12 @@ hr {
     justify-content: center;
   }
   .menu-Container {
-    max-width: 674.4px;
+    max-width: 675.4px;
     justify-content: start;
     margin: 0;
+  }
+  .menu-Title-txt{
+    width: 100%;
   }
   .Sandwiches-container {
     background-color: white;
