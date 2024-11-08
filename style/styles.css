@@ -455,27 +455,20 @@ hr {
     justify-content: center;
   }
 
-  .max-col{
-    max-width: 25rem;
-  }
-  .max-col-2{
-    max-width: 35rem;
-  }
- 
-  .foot-move{
-    max-width: 23rem;
-  }
-  .title-style{
-    width: 100%;
-  }
+
+
+.mobile-row{
+    max-width: 767px;
+}
 
 
   /* Photos */
   .photo-styles{
-    width: 40rem;
+    width: 35rem;
     height: auto;
+    margin-bottom: 2rem;
   }
-
+ 
 }
 
 @media screen and (max-width: 575px) {
@@ -542,6 +535,7 @@ hr {
 
 .triple-img{
     width: 25rem;
+    margin-left: 6rem;
   }
 
   .hero-style{
@@ -561,13 +555,17 @@ hr {
     margin-left: 6.7rem;
   }
 
-  .foot-move{
-    max-width: 17rem;
-  }
+ .mobile-row{
+    max-width: 575px;
+ }
 
   /* Photos mobile */
 
-
+  .photo-styles{
+    width: 30rem;
+    height: auto;
+    margin-bottom: 2rem;
+  }
 
 
 }
