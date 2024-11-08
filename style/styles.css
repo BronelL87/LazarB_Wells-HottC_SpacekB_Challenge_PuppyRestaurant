@@ -340,15 +340,27 @@ hr {
     width: 40.625rem;
 
   }
-  
   .main-text-about {
     height: auto;
     width: 40.625rem;
     text-align: center;
   }
+  .menu-Title-txt{
+    width: 650px;
+  }
 
   .about-card-title-style {
     font-size: 25px;
+  }
+  .card-cntent-width{
+    width: 650px;
+    margin: auto;
+  }
+  .dog-card-body h3{
+    text-align: center;
+  }
+  .dog-card-body p{
+    text-align: center;
   }
 
   
