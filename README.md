@@ -7,6 +7,9 @@
 **Last Revised**: 11/8/2024
 
 **Description**: As a group, we have followed the design of a prototype and created a puppy restaurant website that is responsive for both tablet and mobile.
+                Desktop: 1920px
+                Tablet: 767px
+                Mobile: 575px
 
 **Links**: https://github.com/BronelL87/LazarB_Wells-HottC_SpacekB_Challenge_PuppyRestaurant
 
