@@ -245,9 +245,48 @@ hr {
 }
 /* Menu Styles - End */
 
+/*smaller nav styles START*/
+@media (min-width: 991px) {
+  .smaller-nav-container {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .nav-test {
+    display: none;
+  }
+  .smaller-nav-container {
+    background-color: #e5d7bf;
+  }
+  .nav-smaller-toggle {
+    border-color: #5f002b;
+    background-color: #5f002bda;
+  }
+  .off-canvas-body-color {
+    background-color: #e5d7bf;
+  }
+  .flex-adjustments {
+    width: 85%;
+  }
+  .nav-hamburger-img {
+    text-align: center;
+  }
+}
+@media (max-width: 408px) {
+  .flex-adjustments a {
+    margin-left: 10%;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-smaller-toggle {
+    margin-left: 45%;
+    text-align: center;
+  }
+}
+/*smaller nav styles END*/
+
 @media screen and (max-width: 767px) {
   /* Home Page */
-
   .card-height {
     height: 28.125rem;
     width: 43.75rem;
@@ -343,30 +382,6 @@ hr {
 }
 
 @media screen and (max-width: 575px) {
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   /*Menu mobile verson*/
   .title-font-Menu {
     text-align: center;
@@ -380,44 +395,4 @@ hr {
   .food-Price {
     text-align: center;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Nav Start -->
-    <nav class="navbar navbar-expand-lg nav-padding mt-4">
+    <nav class="navbar nav-test navbar-expand-lg nav-padding mt-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
           <img src="../assets/MuzzlesLogo.png" alt="Muzzles Logo" />
@@ -53,6 +53,59 @@
     </nav>
     <!-- Nav - end -->
 
+    <!--Nav smaller start-->
+    <div class="smaller-nav-container">
+      <nav class="navbar nav-smaller-test navbar-dark bg-">
+        <div class="container-fluid flex-adjustments">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../assets/MuzzlesLogo.png" alt="Muzzles Logo" />
+          </a>
+          <button
+            class="navbar-toggler nav-smaller-toggle"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-body off-canvas-body-color">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link nav-txt" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-txt" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-txt" href="catering.html">Catering</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-txt" href="photo.html">Photo</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link nav-txt nav-hamburger-img"
+                    href="photo.html"
+                    ><img src="../assets/MuzzlesLogo.png" alt="Muzzles Logo"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Nav smaller End-->
+
     <!--Menu Title - Start-->
 
     <div class="food-menu-parent-container">
@@ -75,7 +128,9 @@
           </p>
           <div class="row all-row">
             <div class="col-sm-10 col-12 custome-aligntxt">
-              <h3 class="col-sm-10 col-12 custome-aligntxt food-Title">Sizzling Steak Sandwich</h3>
+              <h3 class="col-sm-10 col-12 custome-aligntxt food-Title">
+                Sizzling Steak Sandwich
+              </h3>
               <p class="food-Description">
                 Open faced steak sandwich with grilled belle peppers and fried
                 onions.
@@ -91,7 +146,7 @@
               </p>
             </div>
             <div class="col-sm-2 col-12 food-Price"><p>$13.99</p></div>
-            <hr style="width: 90%;" />
+            <hr style="width: 90%" />
             <div class="col-sm-10 col-12 custome-aligntxt">
               <h3 class="food-Title">Classic Chicken Panini</h3>
               <p class="food-Description">
@@ -102,7 +157,7 @@
             <div class="col-sm-2 col-12 food-Price">
               <p>$10.99</p>
             </div>
-            <hr style="width: 90%;"/>
+            <hr style="width: 90%" />
             <div class="col-sm-10 col-12 custome-aligntxt">
               <h3 class="food-Title">Smoked Turkey Club</h3>
               <p class="food-Description">
@@ -113,7 +168,7 @@
             <div class="col-sm-2 col-12 food-Price">
               <p>$8.99</p>
             </div>
-            <hr style="width: 90%;"/>
+            <hr style="width: 90%" />
             <div class="col-sm-10 col-12 custome-aligntxt">
               <h3 class="food-Title">Tuna Sandwich</h3>
               <p class="food-Description">
@@ -122,7 +177,7 @@
               </p>
             </div>
             <div class="col-sm-2 col-12 food-Price"><p>$6.99</p></div>
-            <hr style="width: 90%;"/>
+            <hr style="width: 90%" />
           </div>
         </div>
 
@@ -139,8 +194,8 @@
                 Ten honey glazed shrimps grilled with sesame seeds and rosemary.
               </p>
             </div>
-            <div class="col-sm-2 col-12  food-Price"><p>$15.99</p></div>
-            <hr style="width: 90%;"/>
+            <div class="col-sm-2 col-12 food-Price"><p>$15.99</p></div>
+            <hr style="width: 90%" />
 
             <div class="col-sm-10 col-12 custome-aligntxt">
               <h3 class="food-Title">Grilled Salmon</h3>
@@ -151,7 +206,7 @@
             <div class="col-sm-2 col-12 food-Price">
               <p>$13.99</p>
             </div>
-            <hr style="width: 90%;"/>
+            <hr style="width: 90%" />
 
             <div class="col-sm-10 col-12 custome-aligntxt">
               <h3 class="food-Title">Grilled Tilapia</h3>
@@ -162,7 +217,7 @@
             <div class="col-sm-2 col-12 food-Price">
               <p>$10.99</p>
             </div>
-            <hr style="width: 90%;"/>
+            <hr style="width: 90%" />
             <div class="col-sm-10 col-12 custome-aligntxt">
               <h3 class="food-Title">Parmesan Fish Sticks</h3>
               <p class="food-Description">
@@ -173,160 +228,165 @@
             <div class="col-sm-2 col-12 food-Price">
               <p>$8.99</p>
             </div>
-            <hr style="width: 90%;"/>
+            <hr style="width: 90%" />
           </div>
         </div>
 
-          <div class="grill-container d-flex flex-column">
-            <img src="../assets/menumeat.jpg" alt="image of grilled ribs" />
-            <h1 class="title-font-Menu">On the grill</h1>
-            <p class="title-p-Font-Menu">
-              Served with corn, chedder biscuits, and your choice of coleslaw or
-              potato salad
-            </p>
-            <div class="row all-row">
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Baby Back - Full Rack</h3>
-                <p class="food-Description">
-                  A full rack of pork babyback ribs grilled and glazed with
-                  blackberry bbq.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$19.99</p>
-              </div>
-              <hr style="width: 90%;"/>
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Baby Back - Half Rack</h3>
-                <p class="food-Description">
-                  A half rack of pork babyback ribs grilled and glazed with
-                  blackberry bbq.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$13.99</p>
-              </div>
-              <hr style="width: 90%;"/>
-
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Boneless Ribeye</h3>
-                <p class="food-Description">
-                  A three inch thick boneless ribeye grilled in a rosemary rub
-                  and butter
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$25.99</p>
-              </div>
-              <hr style="width: 90%;"/>
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Smoked Turkey Club</h3>
-                <p class="food-Description">
-                  Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
-                  tomatoes.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price"><p>$6.99</p></div>
-              <hr style="width: 90%;"/>
-
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Tuna Sandwich</h3>
-                <p class="food-Description">
-                  Tuna salad with sprouts, sliced tomatoes and cilantro lime
-                  mayo on toast.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$6.99</p>
-              </div>
-              <hr style="width: 90%;"/>
+        <div class="grill-container d-flex flex-column">
+          <img src="../assets/menumeat.jpg" alt="image of grilled ribs" />
+          <h1 class="title-font-Menu">On the grill</h1>
+          <p class="title-p-Font-Menu">
+            Served with corn, chedder biscuits, and your choice of coleslaw or
+            potato salad
+          </p>
+          <div class="row all-row">
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Baby Back - Full Rack</h3>
+              <p class="food-Description">
+                A full rack of pork babyback ribs grilled and glazed with
+                blackberry bbq.
+              </p>
             </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$19.99</p>
+            </div>
+            <hr style="width: 90%" />
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Baby Back - Half Rack</h3>
+              <p class="food-Description">
+                A half rack of pork babyback ribs grilled and glazed with
+                blackberry bbq.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$13.99</p>
+            </div>
+            <hr style="width: 90%" />
+
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Boneless Ribeye</h3>
+              <p class="food-Description">
+                A three inch thick boneless ribeye grilled in a rosemary rub and
+                butter
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$25.99</p>
+            </div>
+            <hr style="width: 90%" />
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Smoked Turkey Club</h3>
+              <p class="food-Description">
+                Smoked deli turkey, maple bacon, cranberry aioli, lettuce and
+                tomatoes.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price"><p>$6.99</p></div>
+            <hr style="width: 90%" />
+
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Tuna Sandwich</h3>
+              <p class="food-Description">
+                Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo
+                on toast.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$6.99</p>
+            </div>
+            <hr style="width: 90%" />
           </div>
+        </div>
 
-          <div class="desserts-container d-flex flex-column">
-            <img
-              src="../assets/menudesserts.jpg"
-              alt="image of cake and ice cream"
-            />
-            <h1 class="title-font-Menu">Desserts</h1>
-            <p class="title-p-Font-Menu">
-              A shot of esspresso can be added to any dessert for an additional
-              $2.
-            </p>
-            <div class="row dessert-row all-row">
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Double Walnut Brownies</h3>
-                <p class="food-Description">
-                  Two brownies with a walnut crust, ice cream and chocolate
-                  sauce.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$8.99</p>
-              </div>
-              <hr style="width: 90%;"/>
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Cheese Cake with Chocolate Sauce</h3>
-                <p class="food-Description">
-                  Cheesecake with ice cream, chocolate shavings and chocolate
-                  sauce.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$7.99</p>
-              </div>
-              <hr style="width: 90%;"/>
-
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Tripple Chocolate Brownie</h3>
-                <p class="food-Description">
-                  A tripple chocolate brownie served with vanilla ice cream and
-                  walnuts.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price"><p>$6.99</p></div>
-              <hr style="width: 90%;"/>
-
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">House Made Shaved Gelato and Cookies</h3>
-                <p class="food-Description">
-                  Your choice of shaved gelato with whole cookies. Options
-                  change daily.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price"><p>$5.99</p></div>
-              <hr style="width: 90%;"/>
-
-              <div class="col-sm-10 col-12 custome-aligntxt">
-                <h3 class="food-Title">Grilled Peaches and Ice Cream</h3>
-                <p class="food-Description">
-                  Grilled peaches in cinnamon and brown sugar glaze with ice
-                  cream.
-                </p>
-              </div>
-              <div class="col-sm-2 col-12 food-Price">
-                <p>$4.99</p>
-              </div>
-              <hr style="width: 90%;"/>
+        <div class="desserts-container d-flex flex-column">
+          <img
+            src="../assets/menudesserts.jpg"
+            alt="image of cake and ice cream"
+          />
+          <h1 class="title-font-Menu">Desserts</h1>
+          <p class="title-p-Font-Menu">
+            A shot of esspresso can be added to any dessert for an additional
+            $2.
+          </p>
+          <div class="row dessert-row all-row">
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Double Walnut Brownies</h3>
+              <p class="food-Description">
+                Two brownies with a walnut crust, ice cream and chocolate sauce.
+              </p>
             </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$8.99</p>
+            </div>
+            <hr style="width: 90%" />
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Cheese Cake with Chocolate Sauce</h3>
+              <p class="food-Description">
+                Cheesecake with ice cream, chocolate shavings and chocolate
+                sauce.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$7.99</p>
+            </div>
+            <hr style="width: 90%" />
+
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Tripple Chocolate Brownie</h3>
+              <p class="food-Description">
+                A tripple chocolate brownie served with vanilla ice cream and
+                walnuts.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price"><p>$6.99</p></div>
+            <hr style="width: 90%" />
+
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">House Made Shaved Gelato and Cookies</h3>
+              <p class="food-Description">
+                Your choice of shaved gelato with whole cookies. Options change
+                daily.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price"><p>$5.99</p></div>
+            <hr style="width: 90%" />
+
+            <div class="col-sm-10 col-12 custome-aligntxt">
+              <h3 class="food-Title">Grilled Peaches and Ice Cream</h3>
+              <p class="food-Description">
+                Grilled peaches in cinnamon and brown sugar glaze with ice
+                cream.
+              </p>
+            </div>
+            <div class="col-sm-2 col-12 food-Price">
+              <p>$4.99</p>
+            </div>
+            <hr style="width: 90%" />
           </div>
         </div>
       </div>
+    </div>
     <!--Menu Choices-End-->
-    
+
     <!--Footer-start-->
-    <div class="container pt-5" style="max-width: 102.5rem;">
+    <div class="container pt-5" style="max-width: 102.5rem">
       <div class="row">
-          <div class="col-6 text-start">
-              <p class="footer-text-style">1357 Mutt Street, Rottweiler CA. 12345</p>
-              <p class="footer-text-style">Phone: 123-456-7890</p>
-          </div>
-          <div class="col-6 text-end">
-              <img class="company-logo-style" src="../assets/CompanyLogo.png" alt="">
-              <p class="footer-text-style">Copyright © Muzzles Restaurant</p>
-          </div>
+        <div class="col-6 text-start">
+          <p class="footer-text-style">
+            1357 Mutt Street, Rottweiler CA. 12345
+          </p>
+          <p class="footer-text-style">Phone: 123-456-7890</p>
+        </div>
+        <div class="col-6 text-end">
+          <img
+            class="company-logo-style"
+            src="../assets/CompanyLogo.png"
+            alt=""
+          />
+          <p class="footer-text-style">Copyright © Muzzles Restaurant</p>
+        </div>
       </div>
-  </div>
+    </div>
     <!--Footer-End-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
