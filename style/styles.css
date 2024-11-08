@@ -444,6 +444,18 @@ hr {
 
 /* About Mobile */
 
+.image-about{
+  display: none;
+}
+
+.about-margin {
+  margin-top: 60px;
+}
+
+.main-text-about {
+  height: auto;
+  width: 28.125rem;
+}
 
   /*Menu mobile verson*/
   .title-font-Menu {
