@@ -407,4 +407,13 @@ hr {
   .food-Price {
     text-align: center;
   }
+  .menu-Container{
+    width: 502.5px;
+  }
+  .seafood-container p{
+    padding: 0;
+  }
+  .title-p-Font-Menu{
+    padding: 0;
+  }
 }
