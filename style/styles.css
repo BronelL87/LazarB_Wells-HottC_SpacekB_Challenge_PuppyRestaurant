@@ -355,6 +355,7 @@ hr {
   .card-cntent-width{
     width: 650px;
     margin: auto;
+    gap: 15px;
   }
   .dog-card-body h3{
     text-align: center;
