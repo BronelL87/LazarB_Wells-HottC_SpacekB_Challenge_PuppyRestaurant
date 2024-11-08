@@ -424,6 +424,27 @@ hr {
 }
 
 @media screen and (max-width: 575px) {
+  /* Home Mobile */
+  .home-image {
+    display: none;
+  }
+  
+  .card-height {
+    height: auto;
+    width: 28.125rem;
+    padding: 0;
+  }
+  
+  .home-title-style {
+   text-align: center;
+  }
+  .home-text-style {
+    text-align: center;
+  }
+
+/* About Mobile */
+
+
   /*Menu mobile verson*/
   .title-font-Menu {
     text-align: center;
@@ -436,5 +457,14 @@ hr {
   }
   .food-Price {
     text-align: center;
+  }
+  .menu-Container{
+    width: 502.5px;
+  }
+  .seafood-container p{
+    padding: 0;
+  }
+  .title-p-Font-Menu{
+    padding: 0;
   }
 }
