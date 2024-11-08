@@ -310,6 +310,18 @@ hr {
 
   /* About */
 
+  .image-about {
+    height: auto;
+    width: 40.625rem;
+
+  }
+  
+  .main-text-about {
+    height: auto;
+    width: 40.625rem;
+    text-align: center;
+  }
+
   /* Menu */
   .menu-Choice {
     grid-template-columns: 1fr 1fr;
