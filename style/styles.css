@@ -95,6 +95,18 @@ body {
   padding: 0 30px 0;
 }
 
+.about-card-title-style {
+  color: #5f002b;
+  font-family: "Fugaz One";
+  font-size: 30px;
+}
+
+.about-text-style {
+  color: #5f002b;
+  font-family: "Montauk Regular";
+  font-size: 20px;
+}
+
 /* About Page - End */
 
 .triple-img {
@@ -335,6 +347,11 @@ hr {
     text-align: center;
   }
 
+  .about-card-title-style {
+    font-size: 25px;
+  }
+
+  
   /* Menu */
   .menu-Choice {
     grid-template-columns: 1fr 1fr;
