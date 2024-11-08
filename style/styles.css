@@ -365,13 +365,15 @@ hr {
   .card-cntent-width{
     width: 650px;
     margin: auto;
-    gap: 15px;
   }
   .dog-card-body h3{
     text-align: center;
   }
   .dog-card-body p{
     text-align: center;
+  }
+  .dog-row{
+    gap: 15px;
   }
 
   .about-Container {
