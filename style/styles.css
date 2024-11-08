@@ -450,7 +450,32 @@ hr {
     padding: 0;
   }
 
+  .card-title-style{
+    display: flex;
+    justify-content: center;
+  }
+
+  .max-col{
+    max-width: 25rem;
+  }
+  .max-col-2{
+    max-width: 35rem;
+  }
+ 
+  .foot-move{
+    max-width: 23rem;
+  }
+  .title-style{
+    width: 100%;
+  }
+
+
   /* Photos */
+  .photo-styles{
+    width: 40rem;
+    height: auto;
+  }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -512,4 +537,37 @@ hr {
   .title-p-Font-Menu{
     padding: 0;
   }
+
+/* Catering mobile */
+
+.triple-img{
+    width: 25rem;
+  }
+
+  .hero-style{
+    height: 20rem;
+  }
+
+  #card-response{
+    width: 25rem;
+    height: 47rem;
+    text-align: center;
+    margin-left: 6.7rem
+  }
+
+  .img-size{
+    width: 25rem;
+    height: 15rem;
+    margin-left: 6.7rem;
+  }
+
+  .foot-move{
+    max-width: 17rem;
+  }
+
+  /* Photos mobile */
+
+
+
+
 }
