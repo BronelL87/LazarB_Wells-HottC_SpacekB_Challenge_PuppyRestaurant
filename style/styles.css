@@ -336,11 +336,11 @@ hr {
   .home-image {
     object-fit: contain;
     height: 27.5rem;
-    margin-top: 100px;
+    margin-top: 10px;
   }
 
   .home-margin {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   /* About */
