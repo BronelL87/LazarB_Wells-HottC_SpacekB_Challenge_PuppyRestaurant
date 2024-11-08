@@ -12,6 +12,6 @@
 
 ### Peer Review
 
-**Reviewer**: 
+**Reviewer**: Anthony Duran
 
-**Reviewer Notes**:
+**Reviewer Notes**: Home page is missing the footer logo, the main image is too large . On About: The behind the grill text goes off the text box when the width is lower than 1500px . On Menu: between 1200px and 750px the text goes off the textbox. On catering: the second images text box is not centered when the pixle width is less than 1630px . On photos: when the page is less than 1600px and larger than 800px the images begin to overlap.
